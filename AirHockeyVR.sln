@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AirHockeyVR", "AirHockeyVR.csproj", "{325B84C3-6015-196C-0625-DFE7942FF05C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AirHockeyVR.Plugins", "AirHockeyVR.Plugins.csproj", "{117347EE-8E9F-692E-52EF-E688CBC50A41}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AirHockeyVR.Editor", "AirHockeyVR.Editor.csproj", "{F64E63F6-C252-CB6F-133D-F7FB5EAD9F04}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AirHockeyVR.Editor.Plugins", "AirHockeyVR.Editor.Plugins.csproj", "{B9CB6A35-E622-DCA6-AEB3-822B3AD5216C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{325B84C3-6015-196C-0625-DFE7942FF05C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{325B84C3-6015-196C-0625-DFE7942FF05C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{325B84C3-6015-196C-0625-DFE7942FF05C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{325B84C3-6015-196C-0625-DFE7942FF05C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{117347EE-8E9F-692E-52EF-E688CBC50A41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{117347EE-8E9F-692E-52EF-E688CBC50A41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{117347EE-8E9F-692E-52EF-E688CBC50A41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{117347EE-8E9F-692E-52EF-E688CBC50A41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F64E63F6-C252-CB6F-133D-F7FB5EAD9F04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F64E63F6-C252-CB6F-133D-F7FB5EAD9F04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F64E63F6-C252-CB6F-133D-F7FB5EAD9F04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F64E63F6-C252-CB6F-133D-F7FB5EAD9F04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9CB6A35-E622-DCA6-AEB3-822B3AD5216C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9CB6A35-E622-DCA6-AEB3-822B3AD5216C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9CB6A35-E622-DCA6-AEB3-822B3AD5216C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9CB6A35-E622-DCA6-AEB3-822B3AD5216C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
