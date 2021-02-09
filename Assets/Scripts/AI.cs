@@ -2,6 +2,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Globalization;
 using System.IO;
 using UnityEngine;
 
@@ -241,9 +242,13 @@ public class AI : MonoBehaviour {
     {
         string[] chunks = line.Split(' ');
         double[] weights = new double[chunks.Length];
-        for (int i = 0; i < chunks.Length; i++)
-            weights[i] = Double.Parse(chunks[i]);
 
+        for (int i = 0; i < chunks.Length; i++)
+        {
+            double d = Convert.ToDouble (chunks [i], CultureInfo.InvariantCulture);
+            weights [i] = d;
+        }
+           
         nn.SetWeights(weights);
     }
 

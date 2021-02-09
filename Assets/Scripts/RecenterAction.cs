@@ -10,6 +10,6 @@ public class RecenterAction : ButtonAction
     public override void Action()
     {
         mainCamera.transform.eulerAngles = new Vector3(0, 0, 0);
-        UnityEngine.VR.InputTracking.Recenter();
+        UnityEngine.XR.InputTracking.Recenter();
     }
 }
